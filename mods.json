@@ -1,0 +1,16 @@
+{
+  "mods": [
+    {
+      "name": "Awesome Mod 1",
+      "author": "ModAuthor1",
+      "description": "This is the first awesome mod.",
+      "icon": "https://example.com/mod1-icon.png"
+    },
+    {
+      "name": "Cool Mod 2",
+      "author": "ModAuthor2",
+      "description": "Check out this cool mod!",
+      "icon": "https://example.com/mod2-icon.png"
+    }
+  ]
+}
