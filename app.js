@@ -14,19 +14,17 @@ document.addEventListener("DOMContentLoaded", function () {
                 card.className = 'col-md-11 col-lg-12 col-xl-11';
 
                 card.innerHTML = `
-                    <div class="card">
-                        <div class="card-body p-4">
-                            <h4 class="card-title" style="padding-top: 0px;margin-left: 3px;padding-bottom: 0px;margin-bottom: 2px;margin-top: 0px;padding-left: 112px;">${mod['display-name']}</h4>
-                            <p style="padding-left: 108px;margin-top: 3px;margin-bottom: -25px;margin-left: 5px;">Author :&nbsp;</p>
-                            <a href="${mod['author-link']}" style="padding-left: 113px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;margin-top: -23px;margin-bottom: -15px;margin-left: 65px;">
-                                <i class="far fa-user" style="font-size: 16px;"></i>&nbsp;${mod.author}&nbsp;
-                            </a>
-                            <p class="card-text" style="margin-top: 3px;padding-left: 113px;margin-bottom: -35px;padding-bottom: 0px;padding-top: 6px;">${mod.description}</p>
-                            <img style="padding-top: 0px;padding-bottom: 0px;margin-bottom: -48px;margin-top: -89px;" src="${mod.icon}" width="100">
-                            <div class="mt-3">
-                                <a href="${mod['repo-link']}" class="btn btn-primary" target="_blank">View Files</a>
-                                <a href="${mod['download-link']}" class="btn btn-success" target="_blank">Download</a>
-                            </div>
+                    <div class="card-body p-4">
+                        <h4 class="card-title" style="padding-top: 0px;margin-left: 3px;padding-bottom: 0px;margin-bottom: 2px;margin-top: 0px;padding-left: 112px;">${mod['display-name']}</h4>
+                        <p style="padding-left: 108px;margin-top: 3px;margin-bottom: -25px;margin-left: 5px;">Author :&nbsp;</p>
+                        <a href="${mod['author-link']}" style="padding-left: 113px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;margin-top: -23px;margin-bottom: -15px;margin-left: 65px;">
+                            <i class="far fa-user" style="font-size: 16px;"></i>&nbsp;${mod.author}&nbsp;
+                        </a>
+                        <p class="card-text" style="margin-top: 3px;padding-left: 113px;margin-bottom: -35px;padding-bottom: 0px;padding-top: 6px;">${mod.description}</p>
+                        <img style="padding-top: 0px;padding-bottom: 0px;margin-bottom: -48px;margin-top: -89px;" src="${mod.icon}" width="100">
+                        <div class="mt-3" style="position: absolute; bottom: 0; right: 0;">
+                            <a href="${mod['repo-link']}" class="btn btn-primary" target="_blank">View Files</a>
+                            <a href="${mod['download-link']}" class="btn btn-success" target="_blank">Download</a>
                         </div>
                     </div>`;
 
