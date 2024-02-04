@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <div class="card-body p-4">
                             <h4 class="card-title" style="padding-top: 0px;margin-left: 3px;padding-bottom: 0px;margin-bottom: 2px;margin-top: 0px;padding-left: 112px;">${mod['display-name']}</h4>
                             <p style="padding-left: 108px;margin-top: 3px;margin-bottom: -25px;margin-left: 5px;">Author :&nbsp;</p>
-                            <a href="${mod['author-link']}" style="padding-left: 113px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;margin-top: -23px;margin-bottom: -15px;margin-left: 65px;">
+                            <a target="_blank" href="${mod['author-link']}" style="padding-left: 113px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;margin-top: -23px;margin-bottom: -15px;margin-left: 65px;">
                                 <i class="far fa-user" style="font-size: 16px;"></i>&nbsp;${mod.author}&nbsp;
                             </a>
                             <p class="card-text" style="margin-top: 3px;padding-left: 113px;margin-bottom: -35px;padding-bottom: 0px;padding-top: 6px;">${mod.description}</p>
