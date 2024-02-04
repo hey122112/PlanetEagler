@@ -6,7 +6,9 @@
       "author": "ModAuthor1",
       "author-link": "https://github.com/ModAuthor1",
       "description": "This is the first awesome mod.",
-      "icon": "https://example.com/mod1-icon.png"
+      "icon": "https://example.com/mod1-icon.png",
+      "repo-link": "https://github.com/ModAuthor1/awesome-mod-1",
+      "download-link": "https://example.com/mod1-download.zip"
     },
     {
       "display-name": "Cool Mod 2",
@@ -14,7 +16,9 @@
       "author": "ModAuthor2",
       "author-link": "https://github.com/ModAuthor2",
       "description": "Check out this cool mod!",
-      "icon": "https://example.com/mod2-icon.png"
+      "icon": "https://example.com/mod2-icon.png",
+      "repo-link": "https://github.com/ModAuthor2/cool-mod-2",
+      "download-link": "https://example.com/mod2-download.zip"
     }
   ]
 }
