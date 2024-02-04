@@ -8,15 +8,23 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <link rel="stylesheet" href="assets/css/Articles-Cards-images.css">
+    <style>
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
 </head>
 
 <body>
     <div class="container py-4 py-xl-5">
         <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
-            <div class="col">
+            <div class="col center">
                 <img src="https://avatars.githubusercontent.com/u/157155680?s=64&amp;v=4">
                 <h1 style="margin-top: -58px;padding-left: 66px;padding-top: 7px;">&nbsp;EaglerRinth</h1>
-                <div class="mb-3">
+                <div class="mb-3 center">
                     <input type="text" class="form-control" id="searchInput" placeholder="Search...">
                 </div>
             </div>
@@ -25,74 +33,4 @@
             </div>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        fetch('mods.json')
-            .then(response => response.json())
-            .then(data => {
-                const modContainer = document.getElementById('modContainer');
-                const searchInput = document.getElementById('searchInput');
-
-                // Remove existing cards
-                modContainer.innerHTML = '';
-
-                // Add cards from the JSON data
-                data.mods.forEach(mod => {
-                    const card = document.createElement('div');
-                    card.className = 'col-md-11 col-lg-12 col-xl-11';
-
-                    card.innerHTML = `
-                        <div class="card">
-                            <div class="card-body p-4">
-                                <h4 class="card-title" style="padding-top: 0px;margin-left: 3px;padding-bottom: 0px;margin-bottom: 2px;margin-top: 0px;padding-left: 112px;">${mod.name}</h4>
-                                <p style="padding-left: 108px;margin-top: 3px;margin-bottom: -25px;margin-left: 5px;">Author :&nbsp;</p>
-                                <a href="#" style="padding-left: 113px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;margin-top: -23px;margin-bottom: -15px;margin-left: 65px;">
-                                    <i class="far fa-user" style="font-size: 16px;"></i>&nbsp;${mod.author}&nbsp;
-                                </a>
-                                <p class="card-text" style="margin-top: 3px;padding-left: 113px;margin-bottom: -35px;padding-bottom: 0px;padding-top: 6px;">${mod.description}</p>
-                                <img style="padding-top: 0px;padding-bottom: 0px;margin-bottom: -48px;margin-top: -89px;" src="${mod.icon}" width="100">
-                            </div>
-                        </div>`;
-
-                    modContainer.appendChild(card);
-                });
-
-                // Add event listener for search input
-                searchInput.addEventListener('input', () => {
-                    const searchValue = searchInput.value.toLowerCase();
-
-                    // Filter mods based on search input
-                    const filteredMods = data.mods.filter(mod =>
-                        mod.name.toLowerCase().includes(searchValue) ||
-                        mod.description.toLowerCase().includes(searchValue) ||
-                        mod.author.toLowerCase().includes(searchValue)
-                    );
-
-                    // Update mod cards based on filtered mods
-                    modContainer.innerHTML = '';
-                    filteredMods.forEach(mod => {
-                        const card = document.createElement('div');
-                        card.className = 'col-md-11 col-lg-12 col-xl-11';
-
-                        card.innerHTML = `
-                            <div class="card">
-                                <div class="card-body p-4">
-                                    <h4 class="card-title" style="padding-top: 0px;margin-left: 3px;padding-bottom: 0px;margin-bottom: 2px;margin-top: 0px;padding-left: 112px;">${mod.name}</h4>
-                                    <p style="padding-left: 108px;margin-top: 3px;margin-bottom: -25px;margin-left: 5px;">Author :&nbsp;</p>
-                                    <a href="#" style="padding-left: 113px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;margin-top: -23px;margin-bottom: -15px;margin-left: 65px;">
-                                        <i class="far fa-user" style="font-size: 16px;"></i>&nbsp;${mod.author}&nbsp;
-                                    </a>
-                                    <p class="card-text" style="margin-top: 3px;padding-left: 113px;margin-bottom: -35px;padding-bottom: 0px;padding-top: 6px;">${mod.description}</p>
-                                    <img style="padding-top: 0px;padding-bottom: 0px;margin-bottom: -48px;margin-top: -89px;" src="${mod.icon}" width="100">
-                                </div>
-                            </div>`;
-
-                        modContainer.appendChild(card);
-                    });
-                });
-            })
-            .catch(error => console.error('Error fetching mods.json:', error));
-    </script>
-</body>
-
-</html>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script
