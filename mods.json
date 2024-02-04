@@ -1,14 +1,18 @@
 {
   "mods": [
     {
-      "name": "Awesome Mod 1",
+      "display-name": "Awesome Mod 1",
+      "mod-name": "awesome-mod-1",
       "author": "ModAuthor1",
+      "author-link": "https://github.com/ModAuthor1",
       "description": "This is the first awesome mod.",
       "icon": "https://example.com/mod1-icon.png"
     },
     {
-      "name": "Cool Mod 2",
+      "display-name": "Cool Mod 2",
+      "mod-name": "cool-mod-2",
       "author": "ModAuthor2",
+      "author-link": "https://github.com/ModAuthor2",
       "description": "Check out this cool mod!",
       "icon": "https://example.com/mod2-icon.png"
     }
