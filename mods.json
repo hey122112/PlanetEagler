@@ -1,14 +1,14 @@
 {
   "mods": [
     {
-      "display-name": "Awesome Mod 1",
-      "mod-name": "awesome-mod-1",
-      "author": "ModAuthor1",
+      "display-name": "fullbright",
+      "mod-name": "fullbright",
+      "author": "IDK",
       "author-link": "https://github.com/ModAuthor1",
-      "description": "This is the first awesome mod.",
+      "description": "Fullbright example plugin.",
       "icon": "https://example.com/mod1-icon.png",
-      "repo-link": "https://github.com/ModAuthor1/awesome-mod-1",
-      "download-link": "https://example.com/mod1-download.zip"
+      "repo-link": "https://github.com/STPv22/EaglerReborn-plugins/blob/main/fullbright.js",
+      "download-link": "https://raw.githubusercontent.com/STPv22/EaglerReborn-plugins/main/fullbright.js"
     },
     {
       "display-name": "Cool Mod 2",
