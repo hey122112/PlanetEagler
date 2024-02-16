@@ -456,15 +456,6 @@ ul {
     height: auto;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust minmax width as needed */
-    gap: 20px;
-    justify-content: center; /* Center-align the boxes */
-    align-items: center;
-    margin: 50px;
-}
-
 .box {
     width: 100%;
     max-width: 25rem;
