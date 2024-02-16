@@ -279,20 +279,6 @@ ul {
     width: 100px;
 }
 
-/* card heading X */
-
-.card__heading2 {
-    font-size: 25px;
-    font-weight: 600;
-    text-align: center;
-}
-
-.card__heading3 {
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-}
-
 /* background */
 
 .game_card {
