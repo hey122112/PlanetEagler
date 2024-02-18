@@ -6,6 +6,9 @@
       "author": "IDK",
       "author-link": "https://github.com/ModAuthor1",
       "description": "Fullbright example plugin.",
+      "tags": [
+        "useful"
+      ]
       "icon": "assets/css/fullbright.png",
       "repo-link": "https://github.com/STPv22/EaglerReborn-plugins/blob/main/fullbright.js",
       "download-link": "https://raw.githubusercontent.com/STPv22/EaglerReborn-plugins/main/fullbright.js"
