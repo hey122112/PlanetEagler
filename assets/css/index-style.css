@@ -705,7 +705,15 @@ ul {
   background-color: purple;
   background-position: center;
 }
-
+.footer{
+   background-color: black;
+	color: white;
+	margin: 0px;
+	margin-top: 50px;
+	padding: 0px;
+	width:auto;
+	height: auto;
+}
 .description {
     display: grid;
     place-items: start; 
