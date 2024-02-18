@@ -593,7 +593,7 @@ ul {
 }
 
 
-#bannerimage {
+.bannerimage {
   width: 100%;
   background-image: url(https://raw.githubusercontent.com/STPv22/planetEagler/main/assets/banner-image.png);
   height: 405px;
