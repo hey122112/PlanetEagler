@@ -1,3 +1,5 @@
+PluginAPI = ModAPI;
+
 var isToggled = false; //stores whether the plugin is on or off
 var oldBrightness = PluginAPI.blocks.air.lightValue //stores the original lightvalue
 
