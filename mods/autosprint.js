@@ -1,3 +1,4 @@
+PluginAPI = ModAPI;
 PluginAPI.require("player");
 
 var isToggled = false; //stores whether the plugin is on or off
