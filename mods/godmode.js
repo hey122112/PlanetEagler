@@ -1,6 +1,7 @@
 /*
 NOTE: This will only work in singleplayer, wich does not exist anymore
 */
+PluginAPI = ModAPI;
 PluginAPI.require("player");
 
 var isToggled = false; //stores whether the plugin is on or off
