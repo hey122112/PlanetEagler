@@ -3,12 +3,12 @@
     {
       "display-name": "Fullbright",
       "mod-name": "fullbright",
-      "author": "IDK",
+      "author": "original creators, originally for EaglerReborn",
       "author-link": "https://guthib.com",
       "description": "Fullbright example plugin. Press F to enable.",
       "icon": "/mods/imgs/fullBright.png",
       "repo-link": "https://github.com/STPv22/EaglerReborn-plugins/blob/main/fullbright.js",
-      "download-link": "https://raw.githubusercontent.com/STPv22/EaglerReborn-plugins/main/fullbright.js"
+      "download-link": "/mods/fullbright.js"
     },
     {
       "display-name": "jjijij",
