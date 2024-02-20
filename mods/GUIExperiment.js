@@ -11,9 +11,10 @@ window.addEventListener("keydown", (event) => {
     if (event.key.toLowerCase() === "f") {
         isToggled = !isToggled;
         if (isToggled){
-          GUI.innerHTML
+            GUI.innerHTML = "hello!!";
+            GUI.height = '50%";
         } else {
-            
+            PluginAPI.displayToChat({msg: "off");
         }
     }
 });
