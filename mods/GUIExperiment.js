@@ -1,4 +1,4 @@
-PluginAPI = ModAPI;
+const PluginAPI = ModAPI;
 
 var isToggled = false; //stores whether the plugin is on or off
 
@@ -14,7 +14,6 @@ window.addEventListener("keydown", (event) => {
             GUI.innerHTML = "hello!!";
             GUI.height = '50%";
         } else {
-            PluginAPI.displayToChat({msg: "off");
         }
     }
 });
